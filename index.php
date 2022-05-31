@@ -1,8 +1,4 @@
-<?php
-
-
-
-?>
+<?php ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,9 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="/css/style.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
@@ -58,14 +55,7 @@
       </a>
       <!-- Notifications -->
       <div class="dropdown">
-        <a
-          class="text-reset me-3 dropdown-toggle hidden-arrow"
-          href="#"
-          id="navbarDropdownMenuLink"
-          role="button"
-          data-mdb-toggle="dropdown"
-          aria-expanded="false"
-        >
+        <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
           <i class="fas fa-bell"></i>
           <span class="badge rounded-pill badge-notification bg-danger">1</span>
         </a>
@@ -99,11 +89,22 @@
         </ul>
       </div>
     </div>
-    <!-- Right elements -->
   </div>
-  <!-- Container wrapper -->
 </nav>
-<!-- Navbar -->
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="fw-bold ">Deliciousness in a Box.</h1>
+        <p class="lead">What can we bake you today?</p>
+        <button class="btn btn-primary byn-lg btns">Start Your Order</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
   </body>
 
   <!-- Placed at the end of the document so the pages load faster -->

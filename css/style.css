@@ -1,0 +1,24 @@
+.masthead {
+  height:50vh;
+  min-height:500px;
+  background-image: url('/assets/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.headerImage {
+  filter:blur(5px);
+  -webkit-filter: blur(5px);
+
+}
+
+.btns {
+background-color:#68771A;
+border:none;
+}
+
+button.btns:hover {
+  background-color:#515c1b;
+}

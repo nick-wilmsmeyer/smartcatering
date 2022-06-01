@@ -2,15 +2,25 @@
   height:50vh;
   min-height:500px;
   background-image: url('/assets/header.jpg');
+  backdrop-filter: blur(10px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 
-.headerImage {
+/*.headerImage {
   filter:blur(5px);
   -webkit-filter: blur(5px);
+}*/
+
+.blur {
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  padding:25px;
+}
+.headerText{
+  color:white;
 
 }
 
@@ -19,6 +29,6 @@ background-color:#68771A;
 border:none;
 }
 
-button.btns:hover {
+button.btns:hover, button.btns:visited, button.btns:active {
   background-color:#515c1b;
 }
